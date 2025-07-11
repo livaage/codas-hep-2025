@@ -1,7 +1,9 @@
 name: codas-hep
 channels:
-  - defaults
   - nvidia/label/cuda-12.4.1
+  - conda-forge
+  - defaults
+  
 dependencies:
   - python=3.10
   - libcurand
