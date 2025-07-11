@@ -1,5 +1,6 @@
 name: codas-hep
 channels:
+  - conda-forge
   - defaults
 #  - nvidia/label/cuda-12.4.1
 dependencies:
