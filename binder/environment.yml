@@ -22,7 +22,7 @@ dependencies:
   - pip:
       - jupyterlab-deck
       - jupyterlab-mathjax3
-      - pycuda #seems that this needs to be installed together with numpy
+      #- pycuda #seems that this needs to be installed together with numpy
 
      
 variables:
