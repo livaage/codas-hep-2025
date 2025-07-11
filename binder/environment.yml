@@ -22,6 +22,17 @@ dependencies:
   - pip:
       - jupyterlab-deck
       - jupyterlab-mathjax3
+      - scipy
+      - keras
+      - tensorflow
+      - torch
+      - h5py
+      - networkx
+      - tensorboard
+      - seaborn
+      - xgboost
+      - torch-geometric
+      - tqdm
       #- pycuda #seems that this needs to be installed together with numpy
 
      
