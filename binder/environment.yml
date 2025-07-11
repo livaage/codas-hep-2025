@@ -6,9 +6,7 @@ channels:
   
 dependencies:
   - python=3.10
-  - libcurand
-  - libcurand-dev
-  - cuda-minimal-build=12.4
+  - cudatoolkit
   - cupy
   - pip
   - zstandard
@@ -16,8 +14,6 @@ dependencies:
   - clang-tools
   - fsspec
   - lz4
-  - cxx-compiler
-  - cmake #needed to compile Geant examples
   - openssh #otherwise ssh is broken due to bug with openssl it seems
   - pip:
       - jupyterlab-deck
