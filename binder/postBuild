@@ -1,7 +1,8 @@
 #!/bin/bash
 set -e
 
-pip install --upgrade nvidia-cudnn-cu12
+#maybe this is no longer needed
+#pip install --upgrade nvidia-cudnn-cu12
 
 
 pip cache purge
