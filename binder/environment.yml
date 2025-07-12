@@ -29,7 +29,7 @@ dependencies:
       - seaborn
       - xgboost
       - torch-geometric
-      - torchvisiion
+      - torchvision
       - tqdm
       #- pycuda #seems that this needs to be installed together with numpy
 
