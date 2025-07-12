@@ -20,7 +20,8 @@ dependencies:
       - jupyterlab-mathjax3
       - scipy
       - keras
-      - tensorflow
+      - tensorflow 
+      - tensorrt
       - torch
       - h5py
       - networkx
