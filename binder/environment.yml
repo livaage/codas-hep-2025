@@ -6,8 +6,6 @@ channels:
   
 dependencies:
   - python=3.10
-#  - cuda-toolkit
-#  - cupy
   - pip
   - zstandard
   - zstd
@@ -16,22 +14,24 @@ dependencies:
   - lz4
   - openssh #otherwise ssh is broken due to bug with openssl it seems
   - pip:
+      - h5py
       - jupyterlab-deck
       - jupyterlab-mathjax3
-      - scipy
       - keras
-      - tensorflow 
+      - networkx
+      - nvidia-cudnn-cu12
+      - scipy
+      - seaborn
+      - tensorboard
+      - tensorflow[and-cuda] 
       - tensorrt
       - torch
-      - h5py
-      - networkx
-      - tensorboard
-      - seaborn
-      - xgboost
       - torch-geometric
       - torchvision
       - tqdm
-      - nvidia-cudnn-cu12
+      - xgboost
+      
+      
       #- pycuda #seems that this needs to be installed together with numpy
 
      
