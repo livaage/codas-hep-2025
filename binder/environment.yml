@@ -31,6 +31,7 @@ dependencies:
       - torch-geometric
       - torchvision
       - tqdm
+      - nvidia-cudnn-cu12
       #- pycuda #seems that this needs to be installed together with numpy
 
      
