@@ -17,11 +17,14 @@ dependencies:
       - h5py
       - jupyterlab-deck
       - jupyterlab-mathjax3
+      - kaggle
       - keras
+      - mplhep
       - networkx
       - numpy<2
       - nvidia-cudnn-cu12
       - scipy
+      - scikit-learn
       - seaborn
       - tensorboard
       - tensorflow[and-cuda] 
