@@ -19,6 +19,7 @@ dependencies:
       - jupyterlab-mathjax3
       - keras
       - networkx
+      - numpy<2
       - nvidia-cudnn-cu12
       - scipy
       - seaborn
