@@ -4,3 +4,6 @@
 [submodule "codas-hep-2025-jit-compilation"]
 	path = codas-hep-2025-jit-compilation
 	url = https://github.com/codas-hep-2025/codas-hep-2025-jit-compilation.git
+[submodule "scientific-python-intro"]
+	path = scientific-python-intro
+	url = https://github.com/codas-hep-2025/scientific-python-intro.git
