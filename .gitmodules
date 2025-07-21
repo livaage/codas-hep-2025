@@ -7,3 +7,6 @@
 [submodule "scientific-python-intro"]
 	path = scientific-python-intro
 	url = https://github.com/codas-hep-2025/scientific-python-intro.git
+[submodule "ParProg"]
+	path = ParProg
+	url = https://github.com/tgmattso/CoDaS_HEP.git
