@@ -7,3 +7,6 @@
 [submodule "scientific-python-intro"]
 	path = scientific-python-intro
 	url = https://github.com/codas-hep-2025/scientific-python-intro.git
+[submodule "machine-learning"]
+	path = machine-learning
+	url = https://github.com/codas-hep-2025/2025-CoDaS-HEP-ML.git
